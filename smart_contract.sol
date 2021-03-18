@@ -5,21 +5,21 @@ contract Example005 {
     result = sum(11,5);
   }
 
-    function sum(uint a, uint b) returns (uint) {
+    function sum(uint a, uint b) returns (uint) {https://github.com/yoonajoo/0318_BC/blob/master/smart_contract.sol
       uint result = a + b;
-      return result;
+      result = sum(12,2);
     }
     
-    function minus(uint a, uint b) returns (uint) {
+    function min(uint a, uint b) returns (uint) {
       uint result = a - b;
-      return result;
+      result = min(12,2);
     }
-    function multiple(uint a, uint b) returns (uint) {
+    function mul(uint a, uint b) returns (uint) {
       uint result = a * b;
-      return result;
+       result = mul(12,2);
     }
-    function divide(uint a, uint b) returns (uint) {
+    function div(uint a, uint b) returns (uint) {
       uint result = a / b;
-      return result;
+       result = div(12,2);
     }
 }
